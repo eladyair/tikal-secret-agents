@@ -1,0 +1,10 @@
+.isolation-container {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    color: #3a3a3a;
+
+    &__country,
+    &__degree {
+        font-weight: bold;
+    }
+}

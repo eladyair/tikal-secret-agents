@@ -1,0 +1,43 @@
+.header-container {
+    height: 3rem;
+    background-color: #fafafa;
+    border: solid 1px #cccccc;
+    border-radius: 0.5rem 0.5rem 0 0;
+    width: 100%;
+    display: flex;
+
+    &__column {
+        padding: 0 0 0 0.8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--title {
+            width: 10%;
+        }
+
+        &--country {
+            width: 10%;
+        }
+
+        &--address {
+            width: 50%;
+        }
+
+        &--date {
+            width: 30%;
+        }
+    }
+
+    &__title {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #3a3a3a;
+    }
+
+    &__separator {
+        margin: auto 0;
+        height: 2rem;
+        border-right: solid 0.1rem #e3e3e3;
+    }
+}

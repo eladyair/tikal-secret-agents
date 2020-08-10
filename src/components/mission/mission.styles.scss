@@ -1,0 +1,30 @@
+.mission {
+    font-size: 1.4rem;
+    color: #3a3a3a;
+    border-bottom: solid 1px #cccccc;
+    display: flex;
+
+    &__column {
+        padding: 0.3rem 0 0.3rem 0.8rem;
+
+        &--agentId {
+            width: 10%;
+        }
+
+        &--country {
+            width: 10%;
+        }
+
+        &--address {
+            width: 50%;
+        }
+
+        &--date {
+            width: 30%;
+        }
+    }
+}
+
+.mission:last-child {
+    border: none;
+}
